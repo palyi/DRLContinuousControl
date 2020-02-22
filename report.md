@@ -19,7 +19,7 @@ WEIGHT_DECAY = 0
 ![TrainScores](score_per_episode.JPG)
 <p>The training showed the following characteristics. After some fine tuning, the training could take place in about 1/3 of the time currently needed (training was realized locally, on a 1080Ti GPU).</p>
 <br>
-![TrainScores](plot_of_scores.JPG)
+![TrainPlot](plot_of_scores.JPG)
 
 <h1>Ideas for Future Work</h1>
 I see two major ideas around this topic. One is to apply a suitable hyperparameter optimizer in order to make the learning process optimal.
