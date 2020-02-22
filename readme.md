@@ -1,7 +1,7 @@
 
 <h2>Project Details</h2>
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/https://www.youtube.com/watch?v=MjjcNHc4Naw/0.jpg)](http://www.youtube.com/watch?v=https://www.youtube.com/watch?v=MjjcNHc4Naw)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/MjjcNHc4Naw/0.jpg)](http://www.youtube.com/watch?v=MjjcNHc4Naw)
 
 <h3>Environment</h3>
 <p>
