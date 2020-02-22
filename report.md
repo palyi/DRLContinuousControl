@@ -13,6 +13,14 @@ LR_CRITIC = 1e-3        <br>
 WEIGHT_DECAY = 0        <br>
 </p>
 
+<h2>Required resubmission: "Please provide the details of the model architecture of the neural networks used in the report."</h2>
+<p>
+The models applied are contained in the file named model.py<br>
+Both actor and critic weights are represented in neural networks. These two use 3 fully connected layers with a batch normalizer after the input layer. Regarding inputs, these networks employ a number of input neurons matching the number of state descriptors (33).
+As I built the solution for one single agent, the forward function makes sure to include these 33 values only, by forcing alignment of the dimensionality of inputs be appropriate for input.
+In line with the general format of DDPG implementations, these neural networks are instantiated in the file named ddpg_agent.py, creating two of each type, e.g. actor and critic networks both exist in local and target "versions", realizing the DDPG "mechanics". 
+</p>
+
 <h1>Plot of Rewards</h1>
 <p>Training took place with arbitrarily choosen hyperparameters. The environment was solved after 1322 episodes:</p>
 <br>
