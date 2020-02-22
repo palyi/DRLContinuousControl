@@ -11,7 +11,7 @@ In this environment, a double-jointed arm can move to target locations. A reward
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. 
 </p>
 
-<h3>State Space</h3>
+<h3>Action Space</h3>
 <p>
 Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 </p>
@@ -21,7 +21,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 <h3>Solution Criteria</h3>
 <p>
-The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. In the case of the plot above, the environment was solved at episode 63, since the average of the average scores from episodes 64 to 163 (inclusive) was greater than +30.
+The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 </p>
 
 <h2>Getting Started</h2>
