@@ -3,7 +3,7 @@
 <h1>Learning Algorithm</h1>
 <p>
 I used the DDPG method for this source. This is an implementation with one single agent acting with just about the minimum required complexity.
-Hyperparameters have been selected as follows:<br>
+Hyperparameters have been selected as follows:<br><br>
 BUFFER_SIZE = int(1e6)  <br>
 BATCH_SIZE = 192        <br>
 GAMMA = 0.99            <br>
