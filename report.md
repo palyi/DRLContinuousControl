@@ -4,13 +4,13 @@
 <p>
 I used the DDPG method for this source. This is an implementation with one single agent acting with just about the minimum required complexity.
 Hyperparameters have been selected as follows:<br>
-BUFFER_SIZE = int(1e6)  
-BATCH_SIZE = 192        
-GAMMA = 0.99            
-TAU = 1e-3              
-LR_ACTOR = 1e-4         
-LR_CRITIC = 1e-3        
-WEIGHT_DECAY = 0        
+BUFFER_SIZE = int(1e6)  <br>
+BATCH_SIZE = 192        <br>
+GAMMA = 0.99            <br>
+TAU = 1e-3              <br>
+LR_ACTOR = 1e-4         <br>
+LR_CRITIC = 1e-3        <br>
+WEIGHT_DECAY = 0        <br>
 </p>
 
 <h1>Plot of Rewards</h1>
