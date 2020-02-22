@@ -25,5 +25,13 @@ The environment is considered solved, when the average (over 100 episodes) of th
 </p>
 
 <h2>Getting Started</h2>
-
+<p>
+In order to run the agent, you need to add the files of the Unity environment in its folder. The python source will reference the .exe file to start generating the virtual world with the robotic arm and the target ball.
+</p>
 <h2>Instructions to Run and Train the Agent</h2>
+<p>
+There are two modes you can run the code in this repository:
+- To train the agent, you need to run Continuous-Control.py. As a result of the training, you will have checkpoint_actor.pth and checkpoint_critic.pth files updated.
+- In order to watch the trained agent working, you should run test_trained.py.
+- To check out the metrics of the training and the results, see the file report.md in this repository.
+</p>
